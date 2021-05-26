@@ -30,6 +30,6 @@ dotnet version (`5.0.202`)
 1. `dotnet test`
 
 ## On Completion
-- Fork the repo and send the link to hiring manager   
+- Push your changes and notify the hiring manager   
 or
 - Clone then zip it up and email to hiring manager
