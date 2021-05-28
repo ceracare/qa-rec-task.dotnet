@@ -38,7 +38,10 @@ namespace CarerApi.Tests
             Assert.AreEqual(true, cp.workingDay);
         }
 
-        // Add a test for negative scenario
+        /** Add a test for negative scenario
+         * [Test]
+           public async Task NegativeTest(){}
+         */
 
         [OneTimeTearDown]
         public void TearDown()

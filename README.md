@@ -6,7 +6,7 @@ For Example: The Carer works Monday to Friday. So a date which falls on a Saturd
 
 ## Task 1
 We are going to push this API to production for the first time. In order to ensure we have delivered quality, reliable and stable software what approach should we take?
-1. Add a TEST-PLAN.md explaining your test approach for this task, including different levels & types of test
+1. Add a TEST-APPROACH.md explaining your test approach for this task, including different levels & types of test
 
 ## Task 2
 Using [TestServer](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.testhost.testserver) complete the tasks below. Microsoft docs explaining the [setup](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0#aspnet-core-integration-tests)
