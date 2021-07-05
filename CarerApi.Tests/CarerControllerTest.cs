@@ -26,7 +26,6 @@ namespace CarerApi.Tests
             HttpResponseMessage response;
             try
             {
-              
                 response = await _client.GetAsync("/Carer/2021-5-15T00:00:00");
                 Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
             }
@@ -39,33 +38,10 @@ namespace CarerApi.Tests
             Assert.AreEqual(true, cp.workingDay);
         }
 
-      
-         [Test]
-           public async Task NegativeTest()
-           {
-           
-            HttpResponseMessage response;
-            try
-            {
-              
-                response = await _client.GetAsync("/Carer/2021-6-13T00:00:00");
-                int code = (int)response.StatusCode;
-                if(code == 204)
-                {
-                    console.log("It is not working day!);
-                }
-                
-            }
-            catch
-            {
-                throw new Exception("Status Code not 204");
-            }
-        }
-           
-           
-           
-           }
-        
+        /** Add a test for negative scenario
+         * [Test]
+           public async Task NegativeTest(){}
+         */
 
         [OneTimeTearDown]
         public void TearDown()
