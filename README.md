@@ -30,7 +30,7 @@ dotnet version (`5.0.202`)
 1. `dotnet test`
 
 ## On Completion
-- Push your changes and notify the hiring manager   
+- Fork and push your changes, then notify the hiring manager   
 or
 - Clone then zip it up and email to hiring manager    
 (please do not create a pull request or push to main)
