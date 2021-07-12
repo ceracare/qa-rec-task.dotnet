@@ -32,4 +32,5 @@ dotnet version (`5.0.202`)
 ## On Completion
 - Push your changes and notify the hiring manager   
 or
-- Clone then zip it up and email to hiring manager
+- Clone then zip it up and email to hiring manager    
+(please do not create a pull request or push to main)
